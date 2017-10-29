@@ -1,4 +1,5 @@
-#importing modules garbage collector (gc), media and fresh_tomatoes. Make sure those files are in the same folder as this file.
+#importing modules garbage collector (gc), media and fresh_tomatoes. Make sure 
+#those files are in the same folder as this file.
 import media
 import fresh_tomatoes
 import gc
@@ -14,7 +15,8 @@ movie6 = media.Movie("The Matrix", "http://t0.gstatic.com/images?q=tbn:ANd9GcQq3
 #Generate a list of the created Movie objects
 movies = [movie1, movie2, movie3, movie4, movie5, movie6]
 
-#Call a function that will take in the list of movies and generate an HTML file including this content
+#Call a function that will take in the list of movies and generate an HTML file 
+#including this content
 fresh_tomatoes.open_movies_page(movies)
 
 
