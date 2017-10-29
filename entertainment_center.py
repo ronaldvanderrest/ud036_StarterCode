@@ -30,3 +30,4 @@ movies = [movie1, movie2, movie3, movie4, movie5, movie6]
 # Call a function that will take in the list of movies and generate an
 # HTML file including this content
 fresh_tomatoes.open_movies_page(movies)
+
